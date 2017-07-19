@@ -1,3 +1,67 @@
-h1{color: red;
-font-size: 500px;}
-p{color: blue;}
+body{
+  height: 1000px;
+}
+h1{
+  margin-top: 100px;
+  margin-left: 20%;
+  color: rgb(255, 63, 3);
+}
+header {
+  padding-right: 10px;
+  margin: 0;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+  text-align: right;
+  height: 80px;
+  width: 100%;
+  font-family: 'Caveat', cursive;
+  z-index: 6;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.side{
+  font-size: 18px;
+  float: left;
+  background-color: rgb(244, 173, 54);
+  z-index: 5;
+  width: 20%;
+  height: 1500px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-left: 0;
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+.side li{
+  list-style-type: none;
+  border-left: solid 6px rgb(1, 1, 1);
+  border-bottom: solid 2px rgba(8, 8, 8, 0.3) ;
+  margin-bottom: 3px;
+  background: rgba(10, 10, 10, 0.1);
+  font-weight: bold;
+}
+.side ul{
+  margin: 8px;
+  font-weight: normal;
+}
+.sidelist ul{
+  border-right: solid 4px rgb(6, 6, 6);
+  border-left: solid 2px rgba(4, 4, 4, 0.3);
+  border-bottom: solid 2px rgba(4, 4, 4, 0.3);
+  background-color: rgba(247, 183, 38, 0.65);
+}
+.side p{
+  background-color: black;
+  color: white;
+  height: 60px;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+}
